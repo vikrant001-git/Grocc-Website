@@ -173,41 +173,6 @@ nav{
   transition: 0.2s ease;
 }
 
-/* Updated Part */
-/*
-.home-text h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.btn {
-  padding: 1rem 2.5rem;
-  background: var(--green-color);
-  color: white;
-  font-weight: 500;
-  border-radius: 5rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-
-.btn:hover {
-  background: var(--light-orange-color);
-  transform: translateY(-3px);
-}
-
-.swiper-slide img {
-  display: none; /* Hide the product images */
-}
- */
-/*Update ends here*/
 .swiper-button-next{
   background: url(right-arrow.png);
   background-repeat: no-repeat;
