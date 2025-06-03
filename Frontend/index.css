@@ -116,6 +116,7 @@ nav{
 
 .swiper-slide.container {
   display: flex;
+  
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
@@ -132,8 +133,6 @@ nav{
   height: auto;
   margin-left: auto;
   align-items: center;
-  top: -25px;
-
 }
 .home-text{
   padding: 0 150px;
@@ -530,6 +529,9 @@ nav{
   .home-text h1{
     font-size: 2rem;
   }
+  .home-text{
+    padding: 0 5%;
+  }
   .swiper-button-next,
   .swiper-button-prev{
     margin: 0;
@@ -594,8 +596,16 @@ nav{
 }
 @media (max-width:712px) {
   .swiper-slide.container img{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     right: 20px;
+  }
+  .swiper-slide.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-left: 10px;
   }
   .heading h1{
     font-size: 1.2rem;
@@ -609,7 +619,7 @@ nav{
   .about-text{
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
@@ -621,5 +631,49 @@ nav{
   }
 }
 @media (max-width: 642px){
-  .swiper-slide.container
+  .container img{
+    right:0;
+    width: 370px;
+  }
+}
+@media (max-width: 546px)
+{
+  .container img{
+    right: 0;
+    width: 370px;
+    height: 820px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 370px)
+{
+  .logo{
+    font-size: 1rem;
+  }
+  .profile img{
+    width: 30px;
+    height: 30px;
+  }
+  .profile span{
+    font-size: 10px;
+  }
+  .home-text {
+    padding-bottom: 17rem;
+  }
+  .home-text span{
+    font-size: 0.8rem;
+  }
+  .home-text h1{
+    font-size: 1.4rem;
+  }
+  .heading{
+    flex-direction: column;
+    text-align: center;
+  }
+  .heading .btn{
+    margin-top: 1rem;
+  }
+  .Categories-container{
+    gap: 1.5rem;
+  }
 }
