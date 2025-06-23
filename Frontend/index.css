@@ -11,6 +11,10 @@
   scroll-padding-top: 2rem;
   scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+  
+}
 :root{
     --green-color: #3cb815;
     --light-green-color: #c0eb7b;
@@ -443,6 +447,7 @@ nav{
   background: #fef4ea;
   border-radius: 0.5rem;
   padding: 20px;
+  flex-wrap: wrap;
 }
 .footer-box{
   display: flex;
@@ -596,9 +601,8 @@ nav{
 }
 @media (max-width:712px) {
   .swiper-slide.container img{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     right: 20px;
   }
   .swiper-slide.container{
