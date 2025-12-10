@@ -55,5 +55,7 @@ Contributions are welcome!<br>
 - Commit your changes<br>
 - Open a Pull Request<br>
 <br>
-## 📄 License<br>
-This project is licensed under the MIT License. You’re free to use it, modify it, and make it your own.<br>
+## 📄 License
+This project is licensed under the **MIT License**.  
+You’re free to use it, modify it, and make it your own.
+
